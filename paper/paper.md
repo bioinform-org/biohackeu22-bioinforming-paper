@@ -72,6 +72,10 @@ You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 wri
 
 ## Acknowledgements
 
-...
+Renato 
+Alexia Cardona
+Denise 
+Linelle
+Suchitra
 
 ## References
