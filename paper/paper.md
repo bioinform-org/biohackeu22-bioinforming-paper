@@ -50,13 +50,7 @@ authors_short: Anteghini \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2022, we here report...
-
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
-
-Please keep sections to a maximum of only two levels.
-
-You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
+...
 
 # Results
 
@@ -70,8 +64,8 @@ You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 wri
 
 ...
 
-## Acknowledgements
+## Acknowledgments
 
-This work was funded by ELIXIR, the research infrastructure for life-science data. We are also grateful to Investment-development fund (IDF) of Montenegro for their support. We thank Alexia Cardona, Renato Alves, Denise Slenter, Bérénice Batut, Linelle Abueg, Suchitra Thapa and Gültekin Ünal for their valuable suggestions.
+This work was funded by ELIXIR, the research infrastructure for life-science data. We are also grateful to the Investment-development fund (IDF) of Montenegro for their support. We thank Alexia Cardona, Renato Alves, Denise Slenter, Bérénice Batut, Linelle Abueg, Suchitra Thapa and Gültekin Ünal for their valuable suggestions.
 
 ## References
