@@ -5,29 +5,34 @@ tags:
   - training
 authors:
   - name: Marco Anteghini
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0003-2794-3853
     affiliation: 1
   - name: Katarina Elez
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-6160-8701
     affiliation: 2
   - name: Selle Bandstra
     orcid: 0000-0000-0000-0000
     affiliation: 2
   - name: Anna Spackova
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-7142-3092
     affiliation: 3
   - name: Rijuta Lamba
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-8323-4694
     affiliation: 4
+  - name: Lisanna Paladin
+    orcid: 0000-0003-0011-9397
+    affiliation: 5
 affiliations:
-  - name: Wageningen University and Research
+  - name: Wageningen University and Research, Wageningen, The Netherlands
     index: 1
-  - name: Freie Universität Berlin
+  - name: Freie Universität Berlin, Berlin, Germany
     index: 2
-  - name: Palacky University in Olomouc
+  - name: Palacky University in Olomouc, Olomouc, Czech Republic
     index: 3
-  - name: University of Oulu
+  - name: University of Oulu, Oulu, Finland
     index: 4
+  - name: European Molecular Biology Laboratory, Heidelberg, Germany
+    index: 5
 date: 11 November 2022
 cito-bibliography: paper.bib
 event: BH22EU
@@ -58,6 +63,10 @@ You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 wri
 ...
 
 # Discussion
+
+...
+
+# Conclusion
 
 ...
 
