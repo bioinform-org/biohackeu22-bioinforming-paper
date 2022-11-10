@@ -11,7 +11,7 @@ authors:
     orcid: 0000-0002-6160-8701
     affiliation: 2
   - name: Selle Bandstra
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-0684-6811
     affiliation: 2
   - name: Anna Spackova
     orcid: 0000-0001-7142-3092
@@ -72,10 +72,6 @@ You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 wri
 
 ## Acknowledgements
 
-Renato 
-Alexia Cardona
-Denise 
-Linelle
-Suchitra
+This work was funded by ELIXIR, the research infrastructure for life-science data. We are also grateful to Investment-development fund (IDF) of Montenegro for their support. We thank Alexia Cardona, Renato Alves, Denise Slenter, Bérénice Batut, Linelle Abueg, Suchitra Thapa and Gültekin Ünal for their valuable suggestions.
 
 ## References
