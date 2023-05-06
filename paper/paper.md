@@ -154,18 +154,21 @@ Once the Bloom's levels and the learning outcomes are decided, it is possible to
 We list three examples of learning activities associated to topic, level and outcome:
 
 **Example level 1**
+
 - Topic: Sequence data format
 - Level: 1	
 - Outcome: Classify the different molecular sequences in fasta format (e.g. protein or nucleic acids)
 - Activity: Lecture and examples of different molecular sequences
 
 **Example level 2**
+
 - Topic: Molecular biology and genetics
 - Level: 2	
 - Outcome: Explain the central dogma of molecular biology
 - Activity: Lecture on replication, transcription and translation
 
 **Example level 3**
+
 - Topic: Protein structure analysis
 - Level: 3
 - Outcome: Use structure visualization tools
@@ -232,7 +235,7 @@ Activate virtual screening environment:\
 ```conda activate virtual_screening```
 2. Move into the ’receptor’ directory.
 Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called ’botA_LC.pdb’. Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
-3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$C\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
+3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
 4. Prepare receptor structure:\
 ```prepare_receptor4.py -r botA_LC.pdb -A hydrogens```
 5. Open ’botA_LC.pdbqt’ file in a text editor and manually set the charge of the zinc atom to 2.000
@@ -249,6 +252,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 
 1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985):\
 ***Query example:***
+
     ```
     ((((Natural language processing[Title/Abstract]) OR 
     (Artificial intelligence[Title/Abstract])) OR 
@@ -256,6 +260,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (Deep Learning[Title/Abstract])) AND 
     (("1980"[Date - Publication] : "1985"[Date - Publication]))
     ```
+
 2. Repeat the search and annotate the results for time frames of 5 years until March 31st 2023. Fill the lists with the results from the queries.\
 ***Lists example:***
     ```
