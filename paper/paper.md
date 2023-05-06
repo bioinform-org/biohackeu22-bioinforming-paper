@@ -172,6 +172,139 @@ We list three examples of learning activities associated to topic, level and out
 - Activity: Visualize a protein structure using Biopython
 
 ## Use cases
+
+### Use case 1 - Identify the species from DNA sequences 
+
+**Area:** Omics
+
+**Level:** 3
+
+**Exercise:** Use the BOLD system for DNA Barcoding to identify the species from the DNA sequences provided in FASTA format. 
+
+The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification.
+
+**Steps:**
+
+1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
+![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](./bold_systems_input.png)
+
+2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
+![The second step of the exercise for species identification. Visualize and take note of the found species.](./bold_systems_output.png)
+
+3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
+
+| ID         | Organism                                 |
+|------------|------------------------------------------|
+| Unknown 1  | Pan troglodytes (Chimpanzee)             |
+| Unknown 2  | Pan paniscus (Pygmy chimpanzee) (Bonobo) |
+| Unknown 3  | Homo sapiens (Human)                     |
+| Unknown 4  | Equus caballus (Horse)                   |
+| Unknown 5  | Oryctolagus cuniculus (Rabbit)           |
+| Unknown 6  | Bos taurus (Bovine)                      |
+| Unknown 7  | Ovis aries (Sheep)                       |
+| Unknown 8  | Homo sapiens (Human)                     |
+| Unknown 9  | Canis lupus (Gray wolf)                  |
+| Unknown 10 | Capra hircus (Goat)                      |
+
+Table: The final results from the omics exercise. The first column contains a list of identifiers (IDs) while the second column represents the species associated to each sequence.
+
+4. (Optional) Try to associate a protein sequence to each DNA sequence and report its UniProt ID.
+
+### Use case 2 - Prepare the structure of a receptor protein for successive inhibitor detection.
+
+**Area**: Drug discovery
+
+**Level:** 4
+
+**Exercise:** Use the provided scripts and software to access and modify the structure of a receptor protein to prepare it for docking.
+
+The receptor protein is PDB:2NYY available from Protein Data Bank (PDB).
+
+**Steps:**
+
+1. Move into a specific working directory: \
+``` cd /home/ubuntu/Desktop/<your_name>/practical5 ``` \
+Create necessary subdirectories:\
+```mkdir receptor ligands scripts dockings```\
+Activate virtual screening environment:\
+```conda activate virtual_screening```
+2. Move into the ’receptor’ directory.
+Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called ’botA_LC.pdb’. Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
+3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$C\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
+4. Prepare receptor structure:\
+```prepare_receptor4.py -r botA_LC.pdb -A hydrogens```
+5. Open ’botA_LC.pdbqt’ file in a text editor and manually set the charge of the zinc atom to 2.000
+
+### Use case 3 - Plot trends of publications on Artificial Intelligence in bioinformatics. Highlight challenges and ethical implications. 
+
+**Area:** Interdisciplinary integration
+
+**Level:** 5
+
+**Exercise:** Go to PubMed (https://pubmed.ncbi.nlm.nih.gov/) and look for papers about Artificial Intelligence in specific time frames. Use the provided scripts (or create your own) to plot the trends, compare them and write your conclusions.
+
+**Steps:**
+
+1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985):\
+***Query example:***
+    ```
+    ((((Natural language processing[Title/Abstract]) OR 
+    (Artificial intelligence[Title/Abstract])) OR 
+    (Machine learning[Title/Abstract])) OR 
+    (Deep Learning[Title/Abstract])) AND 
+    (("1980"[Date - Publication] : "1985"[Date - Publication]))
+    ```
+2. Repeat the search and annotate the results for time frames of 5 years until March 31st 2023. Fill the lists with the results from the queries.\
+***Lists example:***
+    ```
+    time=['1985','1990','1995','2000','2005','2010','2015','2020','2023']
+    n_of_p1=[90,272,386,506,1093,2897,7069,49398,103962]
+    # n_of_p1 -> number of publications - 1st query
+    ```
+3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search. Fill the list.\
+    ***Query example:***
+    ```
+    ((((Artificial Intelligence[Title/Abstract]) OR 
+    (Machine Learning[Title/Abstract]) OR 
+    (Deep Learning[Title/Abstract]) OR 
+    (Natural Language Processing[Title/Abstract])) AND 
+    ((Ethic[Title/Abstract]) OR 
+    (Challenges[Title/Abstract]) OR 
+    (Ethics[Title/Abstract]))) AND 
+    (("2015"[Date - Publication] : "2023-03"[Date - Publication]))
+    ```
+    ***List example:***
+    ```
+    n_of_p2=[1,4,8,14,36,117,355,3546,9862] 
+    # n_of_p2 -> number of publications - 2nd query
+    ```
+4. Plot and compare the trends.\
+    ***Plot code example:***
+    ```
+    import matplotlib.pyplot as plt
+    
+    # Create the plot
+    plt.plot(time, n_of_p1, color='b', label='Paper on AI')
+    plt.plot(time, n_of_p2, color='#77dd77',label='Paper mentioning Ethics\
+    and Challenges of AI')
+
+    # Set x and y axis labels
+    plt.xlabel('Time steps')
+    plt.ylabel('Number of publications')
+
+    # Add legend
+    plt.legend()
+
+    # Adjust x-ticks spacing
+    plt.xticks(rotation=45, ha='right')
+
+    # Show the plot
+    plt.show()
+    ```
+    ***Output:***\
+    ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)\
+
+5. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
     
 ## Teaching platform
 To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
