@@ -181,11 +181,34 @@ We list three examples of learning activities associated to topic, level and out
 
 **Exercise:** Use the BOLD system for DNA Barcoding to identify the species from the DNA sequences provided in FASTA format. 
 
-The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification.
+The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification [@rodrigues2017].
 
 **Steps:**
 
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
+![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
+
+2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
+![The second step of the exercise for species identification. Visualize and take note of the found species.](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
+
+3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
+
+| ID         | Organism                                 |
+|------------|------------------------------------------|
+| Unknown 1  | Pan troglodytes (Chimpanzee)             |
+| Unknown 2  | Pan paniscus (Pygmy chimpanzee) (Bonobo) |
+| Unknown 3  | Homo sapiens (Human)                     |
+| Unknown 4  | Equus caballus (Horse)                   |
+| Unknown 5  | Oryctolagus cuniculus (Rabbit)           |
+| Unknown 6  | Bos taurus (Bovine)                      |
+| Unknown 7  | Ovis aries (Sheep)                       |
+| Unknown 8  | Homo sapiens (Human)                     |
+| Unknown 9  | Canis lupus (Gray wolf)                  |
+| Unknown 10 | Capra hircus (Goat)                      |
+
+Table: The final results from the omics exercise. The first column contains a list of identifiers (IDs) while the second column represents the species associated to each sequence.
+
+4. (Optional) Try to associate a protein sequence to each DNA sequence and report its UniProt ID.
     
 ## Teaching platform
 To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
