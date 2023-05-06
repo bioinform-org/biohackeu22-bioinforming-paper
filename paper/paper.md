@@ -279,13 +279,14 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (Challenges[Title/Abstract]) OR 
     (Ethics[Title/Abstract]))) AND 
     (("2015"[Date - Publication] : "2023-03"[Date - Publication]))
-```\
-***List example:***
+```
 
+***List example:***
 ```
     n_of_p2=[1,4,8,14,36,117,355,3546,9862] 
     # n_of_p2 -> number of publications - 2nd query
 ```
+
 4. Plot and compare the trends.\
 ***Plot code example:***
 ```
