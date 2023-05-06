@@ -279,7 +279,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (Challenges[Title/Abstract]) OR 
     (Ethics[Title/Abstract]))) AND 
     (("2015"[Date - Publication] : "2023-03"[Date - Publication]))
-```    
+```
 ***List example:***
 ```
     n_of_p2=[1,4,8,14,36,117,355,3546,9862] 
@@ -310,7 +310,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 ```
 ***Output:***
 
-    ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)
+![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)
 
 5. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
     
