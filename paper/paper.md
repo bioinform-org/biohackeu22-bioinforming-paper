@@ -251,7 +251,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 **Steps:**
 
 1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985).\
-***Query example:***\
+***Query example:***
 ```
     ((((Natural language processing[Title/Abstract]) OR
     (Artificial intelligence[Title/Abstract])) OR
@@ -261,16 +261,16 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 ```
 
 2. Repeat the search and annotate the results for time frames of 5 years until March 31st 2023. Fill the lists with the results from the queries.\
-***Lists example:***\
-    ```
+***Lists example:***
+```
     time=['1985','1990','1995','2000','2005','2010','2015','2020','2023']
     n_of_p1=[90,272,386,506,1093,2897,7069,49398,103962]
     # n_of_p1 -> number of publications - 1st query
-    ```
+```
 
 3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search. Fill the list.\
-    ***Query example:***\
-    ```
+***Query example:***
+```
     ((((Artificial Intelligence[Title/Abstract]) OR 
     (Machine Learning[Title/Abstract]) OR 
     (Deep Learning[Title/Abstract]) OR 
@@ -279,16 +279,15 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (Challenges[Title/Abstract]) OR 
     (Ethics[Title/Abstract]))) AND 
     (("2015"[Date - Publication] : "2023-03"[Date - Publication]))
-    ```
-    
-    ***List example:***\
-    ```
+```    
+***List example:***
+```
     n_of_p2=[1,4,8,14,36,117,355,3546,9862] 
     # n_of_p2 -> number of publications - 2nd query
-    ```
+```
 4. Plot and compare the trends.\
-    ***Plot code example:***\
-    ```
+***Plot code example:***
+```
     import matplotlib.pyplot as plt
     
     # Create the plot
@@ -308,8 +307,8 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 
     # Show the plot
     plt.show()
-    ```
-    ***Output:***\
+```
+***Output:***
 
     ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)
 
