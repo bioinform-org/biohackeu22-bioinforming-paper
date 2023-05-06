@@ -87,6 +87,154 @@ Bloom’s taxonomy is a set of six levels reflecting the cognitive domain [@bloo
 Table: Description of Bloom's levels.
 
 
+# Results
+
+## Defining and classifying learning areas
+
+Specific areas might have a different role in a specific training context. To structure the training materials, we defined three labels to assign to each learning area: basic (B), core (C\), and specialized (S). For example, when considering a training course, the B-labeled areas must cover information required to understand the other covered areas. The C-labeled areas are the ones that are essential to have a general overview of the main field of the course (e.g. bioinformatics). The S-labeled areas are optional and tailored to the audience. The S areas fully rely upon previous knowledge obtained from the B and C areas. Figure 1 shows the different areas we define.
+
+![Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.](https://drive.google.com/uc?export=view&id=1i0stSDVNtK2gcpYdH4yOYgaAmk8920tJ)
+
+## Defining and classifying learning topics
+
+In order to provide a structured and comprehensive approach to scientific education, we have defined 20 learning topics. Each learning topic is grouped under a specific learning area, as visible in Table 2.
+
+
+| **Learning Topic**               | **Learning Area**                 |
+| -------------------------------- | --------------------------------- |
+| Cell biology                     | Biology                       |
+| Molecular biology and genetics   | Biology                       |
+| Biochemistry and biophysics      | Biology                       |
+| Shell scripting                  | Computational methods         |
+| Programming                      | Computational methods         |
+| Bioinformatics definition        | Interdisciplinary integration |
+| NGS concepts                     | Interdisciplinary integration |
+| Biomedical databases concepts    | Interdisciplinary integration |
+| Structure determination concepts | Interdisciplinary integration |
+| Sequence alignment               | Molecular sequence analysis   |
+| Sequence data format             | Molecular sequence analysis   |
+| Sequence database search         | Molecular sequence analysis   |
+| Genomics/Epigenomics             | Omics                         |
+| Transcriptomics                  | Omics                         |
+| Proteomics/Interactomics         | Omics                         |
+| Metabolomics                     | Omics                         |
+| Protein structure                | Molecular structure analysis  |
+| Structure data format            | Molecular structure analysis  |
+| Structure prediction             | Molecular structure analysis  |
+| Structure visualization, comparison and classification |Molecular structure analysis|
+
+Table: Learning topics and their respective learning areas.
+
+Each of these learning topics has been carefully selected to provide students with a deep understanding of the scientific disciplines they cover. By grouping these topics into specific learning areas, we aim to provide a structured approach to learning that allows students to build on their knowledge and develop a comprehensive understanding of the subject matter.
+
+## Dependencies among learning topics
+
+To design a training path for our training school we followed the guidelines of "The Learning Path step-by-step protocol". The protocol refers to a project started in the ELIXIR Biohackathon Europe 2021 and further developed in the ELIXIR Biohackathon Europe 2022 [@cardona2022]. The protocol is field-agnostic and accompanied by guidelines for curriculum developers and trainers.
+
+For the training on a specific topic to be effective, it may or may not require some previous knowledge from the learner. Consequently, it is essential to teach some modules before others, and eventually to assess that the learning of some topic happened before moving on to the dependent topic. After defining 20 topics which we consider essential to our training school, we captured the dependencies among topics creating a coherent learning path, as shown in Figure 2.
+
+![Dependencies between learning topics.](https://drive.google.com/uc?export=view&id=1tiA8mx4JjH0UN8AMGbmA0z9fEbKPf2FE)
+
+## Defining learning outcomes
+
+To identify how the session content can be informative to the students and correctly target their level of knowledge, it is good practice to define learning outcomes by framing them as a continuation of the sentence "By the end of the lesson, the learner will be able to..." and using the verbs in the Bloom's taxonomy (or their synonyms) [@bloom1956]. 
+As an example, the topic "Protein structure" can have different learning outcomes according to each of the six Bloom's levels (we only show 4 levels since 5 and 6 are meant for highly specialized individuals):
+
+**Protein structure analysis**
+
+1. Name the most important structure determination methods
+2. Describe levels of protein structure
+3. Use structure visualization tools
+4. Compare different structure prediction methods
+
+## Defining learning activities
+
+Once the Bloom's levels and the learning outcomes are decided, it is possible to define one or more activities to reach these outcomes, for each of the topics.
+
+We list three examples of learning activities associated to topic, level and outcome:
+
+**Example level 1**
+- Topic: Sequence data format
+- Level: 1	
+- Outcome: Classify the different molecular sequences in fasta format (e.g. protein or nucleic acids)
+- Activity: Lecture and examples of different molecular sequences
+
+**Example level 2**
+- Topic: Molecular biology and genetics
+- Level: 2	
+- Outcome: Explain the central dogma of molecular biology
+- Activity: Lecture on replication, transcription and translation
+
+**Example level 3**
+- Topic: Protein structure analysis
+- Level: 3
+- Outcome: Use structure visualization tools
+- Activity: Visualize a protein structure using Biopython
+
+## Use cases
+
+### Use case 1 - Identify the species from DNA sequences 
+
+**Area:** Omics
+
+**Level:** 3
+
+**Exercise:** Use the BOLD system for DNA Barcoding to identify the species from the DNA sequences provided in FASTA format. 
+
+The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification.
+
+**Steps**:
+1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
+
+![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
+
+2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
+
+![The second step of the exercise for species identification. Visualize and take note of the found species.](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
+
+3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
+
+| ID         | Organism                                 |
+|------------|------------------------------------------|
+| Unknown 1  | Pan troglodytes (Chimpanzee)             |
+| Unknown 2  | Pan paniscus (Pygmy chimpanzee) (Bonobo) |
+| Unknown 3  | Homo sapiens (Human)                     |
+| Unknown 4  | Equus caballus (Horse)                   |
+| Unknown 5  | Oryctolagus cuniculus (Rabbit)           |
+| Unknown 6  | Bos taurus (Bovine)                      |
+| Unknown 7  | Ovis aries (Sheep)                       |
+| Unknown 8  | Homo sapiens (Human)                     |
+| Unknown 9  | Canis lupus (Gray wolf)                  |
+| Unknown 10 | Capra hircus (Goat)                      |
+
+Table: The final results from the omics exercise. The first column contains a list of identifiers (IDs) while the second column represents the species associated to each sequence.
+
+4. (Optional) Try to associate a protein sequence to each DNA sequence and report its UniProt ID.
+
+
+    
+## Teaching platform
+To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
+
+![Database structure for the teaching platform.](https://drive.google.com/uc?export=view&id=1ngbGpfCdEyMcHiCxxdxNSFSVMOgzQXGK)
+
+## Additional topics and tailored content examples
+
+Tailored content is essential for a successful outcome in every training event. In particular, a 5-day training school risks being too condensed and overwhelming if not properly planned. For these reasons, we believe it is important to add certain flexibility to our training events, monitoring the students' during and after the training school implementation.\
+Our format aims to provide a space for general discussion and soft skill improvement in parallel to our highly structured training materials.
+In the regular call for applications to a training event, we ask questions like "How would you rate your interest in knowing more about the following topics?" and "What additional topics would you be interested in knowing more about?".\
+Additionally, we dedicate sessions to complementary discussions for scientific training schools such as: "Career in bioinformatics", "Ethics and challenges of AI", "Environmental protection", "Gender imbalance in science" and "Erasmus exchange opportunities".\
+As an example, the session "Ethics and challenges of AI" would consist of  a discussion on the challenges connected to the use of AI in healthcare. These include: ensuring patient privacy and data security, addressing issues of bias and fairness in algorithmic decision-making, and establishing accountability for the actions of AI systems. Also, practical challenges can be clustered in the following groups: data integration problems, training set bias and black-box characteristics.
+
+
+# Conclusions
+
+Preparation of training materials for a training school in bioinformatics tailored to different audiences requires a general structure that should both be flexible and well-planned. In this work, we show how to prepare a structure which can be adapted to different target groups. In particular, we define learning areas, learning topics and the dependencies between them. These dependencies define a learning path which can be a valuable resource while organizing training schools. It can work as a backbone for defining learning outcomes, that satisfy both the student and the trainer, through specific learning activities.\
+We developed a five-day training school format that caters to three target groups of young students: high school students, undergraduate students in biology-related fields, and undergraduate students in computational fields. Our focus on interdisciplinary integration is reflected in the fact that four of the learning topics fall under the "Interdisciplinary integration" learning area. This reflects the growing importance of interdisciplinary approaches in scientific research, and our desire to prepare students to tackle complex scientific problems using a multidisciplinary approach. Our ultimate goal is to inspire young students to pursue careers in bioinformatics and related fields and contribute to scientific advancements.\
+One of the main advantages of our format is its ability to provide students with a broad overview of bioinformatics and scientific career opportunities. The tailored content ensures that each group receives information appropriate for their level of knowledge and experience. We also incorporate general discussion and soft skill development to create a more engaging and interactive learning environment. Another important feature of our approach is the use of assessment forms during and after training to monitor student progress and evaluate the effectiveness of the training school. By soliciting feedback from students, we can gather information that can be used to improve future iterations of the training school.\
+We believe the materials produced in our training initiatives should be FAIR and open to everyone interested in using them. Moreover, it should be possible for other trainers to easily contribute their training materials. For these reasons, we defined a structure for an open-source teaching platform. In the future, we envisage the implementation of such a training platform and the addition of new materials specific to different target groups that will participate in our training events.
+
+
 # Acknowledgments
 
 This work was funded by ELIXIR, the research infrastructure for life-science data. We are also grateful to the Investment-development fund (IDF) of Montenegro for their support. We thank Anna Spackova, Alexia Cardona, Renato Alves, Denise Slenter, Bérénice Batut, Linelle Abueg, Suchitra Thapa and Gültekin Ünal for their valuable suggestions.
