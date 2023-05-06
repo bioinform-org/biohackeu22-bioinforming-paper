@@ -316,7 +316,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 ## Teaching platform
 To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
 
-![Database structure for the teaching platform.](./teaching_platform_db.png)
+![Database structure for the teaching platform.](./teaching_platform_db.png | width=300)
 
 ## Additional topics and tailored content examples
 
