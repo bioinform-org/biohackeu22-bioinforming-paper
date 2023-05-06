@@ -288,7 +288,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 ```
 
 4. Plot and compare the trends.\
-***Plot code example:***
+***Plot code example:***\
 ```
     import matplotlib.pyplot as plt
     
