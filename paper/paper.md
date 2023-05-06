@@ -93,7 +93,7 @@ Table: Description of Bloom's levels.
 
 Specific areas might have a different role in a specific training context. To structure the training materials, we defined three labels to assign to each learning area: basic (B), core (C\), and specialized (S). For example, when considering a training course, the B-labeled areas must cover information required to understand the other covered areas. The C-labeled areas are the ones that are essential to have a general overview of the main field of the course (e.g. bioinformatics). The S-labeled areas are optional and tailored to the audience. The S areas fully rely upon previous knowledge obtained from the B and C areas. Figure 1 shows the different areas we define.
 
-![Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.](https://drive.google.com/uc?export=view&id=1i0stSDVNtK2gcpYdH4yOYgaAmk8920tJ)
+![Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.](./modules.png)
 
 ## Defining and classifying learning topics
 
@@ -133,7 +133,7 @@ To design a training path for our training school we followed the guidelines of 
 
 For the training on a specific topic to be effective, it may or may not require some previous knowledge from the learner. Consequently, it is essential to teach some modules before others, and eventually to assess that the learning of some topic happened before moving on to the dependent topic. After defining 20 topics which we consider essential to our training school, we captured the dependencies among topics creating a coherent learning path, as shown in Figure 2.
 
-![Dependencies between learning topics.](https://drive.google.com/uc?export=view&id=1tiA8mx4JjH0UN8AMGbmA0z9fEbKPf2FE)
+![Dependencies between learning topics.](./learning_path.png)
 
 ## Defining learning outcomes
 
@@ -176,7 +176,7 @@ We list three examples of learning activities associated to topic, level and out
 ## Teaching platform
 To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
 
-![Database structure for the teaching platform.](https://drive.google.com/uc?export=view&id=1ngbGpfCdEyMcHiCxxdxNSFSVMOgzQXGK)
+![Database structure for the teaching platform.](./teaching_platform_db.png)
 
 ## Additional topics and tailored content examples
 
