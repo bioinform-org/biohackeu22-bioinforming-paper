@@ -84,7 +84,7 @@ Bloom’s taxonomy is a set of six levels reflecting the cognitive domain [@bloo
 | 5 | Synthesize (pull ideas into a coherent whole, create new ideas)|
 | 6 | Evaluate (make and defend judgments, assess theories and outcomes)|
 
-<b>Table 1.</b> Description of Bloom's levels.
+Table: Description of Bloom's levels.
 
 
 # Results
@@ -93,9 +93,9 @@ Bloom’s taxonomy is a set of six levels reflecting the cognitive domain [@bloo
 
 Specific areas might have a different role in a specific training context. To structure the training materials, we defined three labels to assign to each learning area: basic (B), core (C\), and specialized (S). For example, when considering a training course, the B-labeled areas must cover information required to understand the other covered areas. The C-labeled areas are the ones that are essential to have a general overview of the main field of the course (e.g. bioinformatics). The S-labeled areas are optional and tailored to the audience. The S areas fully rely upon previous knowledge obtained from the B and C areas. Figure 1 shows the different areas we define.
 
-![Modules.png](https://drive.google.com/uc?export=view&id=1i0stSDVNtK2gcpYdH4yOYgaAmk8920tJ)
+![](https://drive.google.com/uc?export=view&id=1i0stSDVNtK2gcpYdH4yOYgaAmk8920tJ)
 
-<b>Figure 1.</b> Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.
+Figure: Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.
 
 ## Defining and classifying learning topics
 
@@ -125,7 +125,7 @@ In order to provide a structured and comprehensive approach to scientific educat
 | Structure prediction             | Molecular structure analysis  |
 | Structure visualization, comparison and classification |Molecular structure analysis|
 
-<b>Table 2.</b> Learning topics and their respective learning areas.
+Table: Learning topics and their respective learning areas.
 
 Each of these learning topics has been carefully selected to provide students with a deep understanding of the scientific disciplines they cover. By grouping these topics into specific learning areas, we aim to provide a structured approach to learning that allows students to build on their knowledge and develop a comprehensive understanding of the subject matter.
 
@@ -134,9 +134,9 @@ To design a training path for our training school we followed the guidelines of 
 
 For the training on a specific topic to be effective, it may or may not require some previous knowledge from the learner. Consequently, it is essential to teach some modules before others, and eventually to assess that the learning of some topic happened before moving on to the dependent topic. After defining 20 topics which we consider essential to our training school, we captured the dependencies among topics creating a coherent learning path, as shown in Figure 2.
 
-![learning_path.png](https://drive.google.com/uc?export=view&id=1tiA8mx4JjH0UN8AMGbmA0z9fEbKPf2FE)
+![](https://drive.google.com/uc?export=view&id=1tiA8mx4JjH0UN8AMGbmA0z9fEbKPf2FE)
 
-<b>Figure 2.</b> Dependencies between learning topics.
+Figure: Dependencies between learning topics.
 
 ## Defining learning outcomes
 
@@ -144,29 +144,29 @@ To identify how the session content can be informative to the students and corre
 As an example, the topic "Protein structure" can have different learning outcomes according to each of the six Bloom's levels (we only show 4 levels since 5 and 6 are meant for highly specialized individuals):
 
 **Protein structure analysis**
-1. *Name the most important structure determination methods*
-2. *Describe levels of protein structure* 
-3. *Use structure visualization tools*
-4. *Compare different structure prediction methods*
+1. Name the most important structure determination methods
+2. Describe levels of protein structure
+3. Use structure visualization tools
+4. Compare different structure prediction methods
 
 ## Defining learning activities
 Once the Bloom's levels and the learning outcomes are decided, it is possible to define one or more activities to reach these outcomes, for each of the topics.
 
 We list three examples of learning activities associated to topic, level and outcome:
 
-<b> Example level 1 </b>
+**Example level 1**
 - Topic: Sequence data format
 - Level: 1	
 - Outcome: Classify the different molecular sequences in fasta format (e.g. protein or nucleic acids)
--  Activity: Lecture and examples of different molecular sequences
+- Activity: Lecture and examples of different molecular sequences
 
-<b> Example level 2 </b>
+**Example level 2**
 - Topic: Molecular biology and genetics
 - Level: 2	
 - Outcome: Explain the central dogma of molecular biology
 - Activity: Lecture on replication, transcription and translation
 
-<b> Example level 3 </b>
+**Example level 3**
 - Topic: Protein structure analysis
 - Level: 3
 - Outcome: Use structure visualization tools
@@ -186,12 +186,16 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 
 **Steps**:
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
+
 ![](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
-<b>Figure 3.</b> The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.
+
+Figure: The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.
 
 2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
+
 ![](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
-<b>Figure 4.</b> The second step of the exercise for species identification. Visualize and take note of the found species.
+
+Figure: The second step of the exercise for species identification. Visualize and take note of the found species.
 
 3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
 
@@ -208,7 +212,7 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 | Unknown 9  | Canis lupus (Gray wolf)                  |
 | Unknown 10 | Capra hircus (Goat)                      |
 
-<b>Table 3.</b> The final results from the omics exercise. The first column contains a list of identifiers (IDs) while the second column represents the species associated to each sequence.
+Table: The final results from the omics exercise. The first column contains a list of identifiers (IDs) while the second column represents the species associated to each sequence.
 
 4. (Optional) Try to associate a protein sequence to each DNA sequence and report its UniProt ID.
 
@@ -304,7 +308,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     ***Output:***\
     ![](https://drive.google.com/uc?export=view&id=1kgPYeAmMCiIayu3qJUuqkb4WvCBNPmom)\
 
-<b>Figure 5.</b> Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".
+Figure: Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".
 
 5. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
     
@@ -313,7 +317,7 @@ To create and share FAIR training materials, we envisaged the construction of an
 
 ![](https://drive.google.com/uc?export=view&id=1ngbGpfCdEyMcHiCxxdxNSFSVMOgzQXGK)
 
-<b>Figure 6.</b> Database structure for the teaching platform.
+Figure: Database structure for the teaching platform.
 
 ## Additional topics and tailored content examples
 
