@@ -251,7 +251,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 **Steps:**
 
 1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985).\
-***Query example:***
+***Query example:***\
     ```
     ((((Natural language processing[Title/Abstract]) OR 
     (Artificial intelligence[Title/Abstract])) OR 
@@ -269,7 +269,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     ```
 
 3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search. Fill the list.\
-    ***Query example:***
+    ***Query example:***\
     ```
     ((((Artificial Intelligence[Title/Abstract]) OR 
     (Machine Learning[Title/Abstract]) OR 
@@ -281,13 +281,13 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (("2015"[Date - Publication] : "2023-03"[Date - Publication]))
     ```
     
-    ***List example:***
+    ***List example:***\
     ```
     n_of_p2=[1,4,8,14,36,117,355,3546,9862] 
     # n_of_p2 -> number of publications - 2nd query
     ```
 4. Plot and compare the trends.\
-    ***Plot code example:***
+    ***Plot code example:***\
     ```
     import matplotlib.pyplot as plt
     
