@@ -233,7 +233,7 @@ Activate virtual screening environment:\
 Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called ’botA_LC.pdb’. Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
 3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$C\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
 4. Prepare receptor structure:\
-```prepare_receptor4.py −r botA_LC.pdb −A hydrogens```
+```prepare_receptor4.py -r botA_LC.pdb -A hydrogens```
 5. Open ’botA_LC.pdbqt’ file in a text editor and manually set the charge of the zinc atom to 2.000
 
 ### Use case 3 - Plot trends of publications on Artificial Intelligence in bioinformatics. Highlight challenges and ethical implications. 
