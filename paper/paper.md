@@ -140,8 +140,8 @@ For the training on a specific topic to be effective, it may or may not require 
 To identify how the session content can be informative to the students and correctly target their level of knowledge, it is good practice to define learning outcomes by framing them as a continuation of the sentence "By the end of the lesson, the learner will be able to..." and using the verbs in the Bloom's taxonomy (or their synonyms) [@bloom1956]. 
 As an example, the topic "Protein structure" can have different learning outcomes according to each of the six Bloom's levels (we only show 4 levels since 5 and 6 are meant for highly specialized individuals):
 
-**Protein structure analysis**
-1. Name the most important structure determination methods<br>
+**Protein structure analysis:**
+1. Name the most important structure determination methods
 2. Describe levels of protein structure
 3. Use structure visualization tools
 4. Compare different structure prediction methods
