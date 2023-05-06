@@ -156,14 +156,14 @@ We list three examples of learning activities associated to topic, level and out
 **Example level 1**
 
 - Topic: Sequence data format
-- Level: 1	
+- Level: 1
 - Outcome: Classify the different molecular sequences in fasta format (e.g. protein or nucleic acids)
 - Activity: Lecture and examples of different molecular sequences
 
 **Example level 2**
 
 - Topic: Molecular biology and genetics
-- Level: 2	
+- Level: 2
 - Outcome: Explain the central dogma of molecular biology
 - Activity: Lecture on replication, transcription and translation
 
@@ -250,7 +250,8 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 
 **Steps:**
 
-1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985):\
+1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985):
+
 ***Query example:***
 
     ```
@@ -261,13 +262,15 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (("1980"[Date - Publication] : "1985"[Date - Publication]))
     ```
 
-2. Repeat the search and annotate the results for time frames of 5 years until March 31st 2023. Fill the lists with the results from the queries.\
+2. Repeat the search and annotate the results for time frames of 5 years until March 31st 2023. Fill the lists with the results from the queries.
+
 ***Lists example:***
     ```
     time=['1985','1990','1995','2000','2005','2010','2015','2020','2023']
     n_of_p1=[90,272,386,506,1093,2897,7069,49398,103962]
     # n_of_p1 -> number of publications - 1st query
     ```
+
 3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search. Fill the list.\
     ***Query example:***
     ```
