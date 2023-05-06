@@ -194,7 +194,8 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).\
 ![The second step of the exercise for species identification. Visualize and take note of the found species.](./bold_systems_output.png)
 
-3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3.\
+3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3.
+
 | ID         | Organism                                 |
 |------------|------------------------------------------|
 | Unknown 1  | Pan troglodytes (Chimpanzee)             |
