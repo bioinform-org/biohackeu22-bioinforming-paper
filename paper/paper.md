@@ -186,9 +186,11 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 **Steps:**
 
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
+
 ![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](./bold_systems_input.png)
 
 2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
+
 ![The second step of the exercise for species identification. Visualize and take note of the found species.](./bold_systems_output.png)
 
 3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
@@ -302,7 +304,8 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     plt.show()
     ```
     ***Output:***\
-    ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)\
+
+    ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)
 
 5. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
     
