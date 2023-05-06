@@ -65,11 +65,11 @@ In this paper, we present our improved method for designing a five-day training 
 
 ### Definitions
 
-- <b>Learning area</b>. A learning area is defined as the “Grouping of traditionally discrete but related subjects with the explicit aim of integrating students’ learning” [@unesco2013].
-- <b> Learning topic</b>. In this work, we define learning topics as teaching units that include a presentation of the theory (corresponding to a learning outcome) and one or seveal learning activities (e.g. an exercise corresponding to a learning outcome). Our topics usually cover two or fewer hours of teaching.
-- <b>Learning path</b>. Selection and interconnection of learning topics tied together for learners to progress through, while mastering a particular subject or program [@nabizadeh2020].
-- <b>Learning outcome</b>. "Totality of information, knowledge, understanding, attitudes, values, skills, competencies or behaviors an individual is expected to master upon successful completion of an educational programme" [@unesco2012].
-- <b>Learning activity</b>. The specific activity that will support learners to achieve the learning outcomes. Learning activities are coupled with specific learning outcomes at each level of the Bloom's taxonomy [@bloom1956]. They can refer both to theoretical lectures and to practical exercises. The Bloom's taxonomy is summarised subsequently.
+- **Learning area**. A learning area is defined as the “Grouping of traditionally discrete but related subjects with the explicit aim of integrating students’ learning” [@unesco2013].
+- **Learning topic**. In this work, we define learning topics as teaching units that include a presentation of the theory (corresponding to a learning outcome) and one or seveal learning activities (e.g. an exercise corresponding to a learning outcome). Our topics usually cover two or fewer hours of teaching.
+- **Learning path**. Selection and interconnection of learning topics tied together for learners to progress through, while mastering a particular subject or program [@nabizadeh2020].
+- **Learning outcome**. "Totality of information, knowledge, understanding, attitudes, values, skills, competencies or behaviors an individual is expected to master upon successful completion of an educational programme" [@unesco2012].
+- **Learning activity**. The specific activity that will support learners to achieve the learning outcomes. Learning activities are coupled with specific learning outcomes at each level of the Bloom's taxonomy [@bloom1956]. They can refer both to theoretical lectures and to practical exercises. The Bloom's taxonomy is summarised subsequently.
 
 ### Bloom's taxonomy
 
@@ -140,7 +140,7 @@ For the training on a specific topic to be effective, it may or may not require 
 To identify how the session content can be informative to the students and correctly target their level of knowledge, it is good practice to define learning outcomes by framing them as a continuation of the sentence "By the end of the lesson, the learner will be able to..." and using the verbs in the Bloom's taxonomy (or their synonyms) [@bloom1956]. 
 As an example, the topic "Protein structure" can have different learning outcomes according to each of the six Bloom's levels (we only show 4 levels since 5 and 6 are meant for highly specialized individuals):
 
-**Protein structure analysis**:
+**Protein structure analysis**
 
 1. Name the most important structure determination methods
 2. Describe levels of protein structure
@@ -148,6 +148,7 @@ As an example, the topic "Protein structure" can have different learning outcome
 4. Compare different structure prediction methods
 
 ## Defining learning activities
+
 Once the Bloom's levels and the learning outcomes are decided, it is possible to define one or more activities to reach these outcomes, for each of the topics.
 
 We list three examples of learning activities associated to topic, level and outcome:
