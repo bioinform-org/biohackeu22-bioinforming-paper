@@ -128,13 +128,12 @@ Table: Learning topics and their respective learning areas.
 Each of these learning topics has been carefully selected to provide students with a deep understanding of the scientific disciplines they cover. By grouping these topics into specific learning areas, we aim to provide a structured approach to learning that allows students to build on their knowledge and develop a comprehensive understanding of the subject matter.
 
 ## Dependencies among learning topics
+
 To design a training path for our training school we followed the guidelines of "The Learning Path step-by-step protocol". The protocol refers to a project started in the ELIXIR Biohackathon Europe 2021 and further developed in the ELIXIR Biohackathon Europe 2022 [@cardona2022]. The protocol is field-agnostic and accompanied by guidelines for curriculum developers and trainers.
 
 For the training on a specific topic to be effective, it may or may not require some previous knowledge from the learner. Consequently, it is essential to teach some modules before others, and eventually to assess that the learning of some topic happened before moving on to the dependent topic. After defining 20 topics which we consider essential to our training school, we captured the dependencies among topics creating a coherent learning path, as shown in Figure 2.
 
-![](https://drive.google.com/uc?export=view&id=1tiA8mx4JjH0UN8AMGbmA0z9fEbKPf2FE)
-
-Figure: Dependencies between learning topics.
+![Dependencies between learning topics.](https://drive.google.com/uc?export=view&id=1tiA8mx4JjH0UN8AMGbmA0z9fEbKPf2FE)
 
 ## Defining learning outcomes
 
@@ -142,7 +141,7 @@ To identify how the session content can be informative to the students and corre
 As an example, the topic "Protein structure" can have different learning outcomes according to each of the six Bloom's levels (we only show 4 levels since 5 and 6 are meant for highly specialized individuals):
 
 **Protein structure analysis**
-1. Name the most important structure determination methods
+1. Name the most important structure determination methods<br>
 2. Describe levels of protein structure
 3. Use structure visualization tools
 4. Compare different structure prediction methods
@@ -185,15 +184,11 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 **Steps**:
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
 
-![](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
-
-Figure: The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.
+![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
 
 2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
 
-![](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
-
-Figure: The second step of the exercise for species identification. Visualize and take note of the found species.
+![The second step of the exercise for species identification. Visualize and take note of the found species.](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
 
 3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
 
@@ -304,18 +299,14 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     plt.show()
     ```
     ***Output:***\
-    ![](https://drive.google.com/uc?export=view&id=1kgPYeAmMCiIayu3qJUuqkb4WvCBNPmom)\
-
-Figure: Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".
+    ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](https://drive.google.com/uc?export=view&id=1kgPYeAmMCiIayu3qJUuqkb4WvCBNPmom)\
 
 5. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
     
 ## Teaching platform
 To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
 
-![](https://drive.google.com/uc?export=view&id=1ngbGpfCdEyMcHiCxxdxNSFSVMOgzQXGK)
-
-Figure: Database structure for the teaching platform.
+![Database structure for the teaching platform.](https://drive.google.com/uc?export=view&id=1ngbGpfCdEyMcHiCxxdxNSFSVMOgzQXGK)
 
 ## Additional topics and tailored content examples
 
