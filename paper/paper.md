@@ -268,7 +268,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     # n_of_p1 -> number of publications - 1st query
 ```
 
-3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search.\
+3. Repeat the search for the same time frames. This time add the words "Ethic", "Ethics" or "Challenges" in the advanced search.\
 ***Query example:***
 ```
     ((((Artificial Intelligence[Title/Abstract]) OR 
@@ -322,7 +322,7 @@ To create and share FAIR training materials, we envisaged the construction of an
 
 ## Additional topics and tailored content examples
 
-Tailored content is essential for a successful outcome in every training event. In particular, a 5-day training school risks being too condensed and overwhelming if not properly planned. For these reasons, we believe it is important to add certain flexibility to our training events, monitoring the students' during and after the training school implementation.\
+Tailored content is essential for a successful outcome in every training event. In particular, a 5-day training school risks being too condensed and overwhelming if not properly planned. For these reasons, we believe it is important to add certain flexibility to our training events, monitoring the students' satisfaction during and after the training school implementation.\
 Our format aims to provide a space for general discussion and soft skill improvement in parallel to our highly structured training materials.
 In the regular call for applications to a training event, we ask questions like "How would you rate your interest in knowing more about the following topics?" and "What additional topics would you be interested in knowing more about?".\
 Additionally, we dedicate sessions to complementary discussions for scientific training schools such as: "Career in bioinformatics", "Ethics and challenges of AI", "Environmental protection", "Gender imbalance in science" and "Erasmus exchange opportunities".\
