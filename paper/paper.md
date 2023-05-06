@@ -146,6 +146,10 @@ As an example, the topic "Protein structure" can have different learning outcome
 3. Use structure visualization tools
 4. Compare different structure prediction methods
 
+List test:
+1. Item 1
+2. Item 2
+
 ## Defining learning activities
 Once the Bloom's levels and the learning outcomes are decided, it is possible to define one or more activities to reach these outcomes, for each of the topics.
 
