@@ -268,7 +268,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     # n_of_p1 -> number of publications - 1st query
 ```
 
-3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search. Fill the list.\
+3. Repeat the search for the same time frames. This time add the words 'Ethic', 'Ethics' or 'Challenges' in the advanced search.\
 ***Query example:***
 ```
     ((((Artificial Intelligence[Title/Abstract]) OR 
@@ -281,14 +281,15 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (("2015"[Date - Publication] : "2023-03"[Date - Publication]))
 ```
 
+4. Fill the list with the results from the queries.\
 ***List example:***
 ```
     n_of_p2=[1,4,8,14,36,117,355,3546,9862] 
     # n_of_p2 -> number of publications - 2nd query
 ```
 
-4. Plot and compare the trends.\
-***Plot code example:***\
+5. Plot and compare the trends.\
+***Plot code example:***
 ```
     import matplotlib.pyplot as plt
     
@@ -309,12 +310,10 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 
     # Show the plot
     plt.show()
-```\
-***Output:***
-
+```
 ![Trend in the number of papers published in a specific time range mentioning one of the following words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning" or "Deep Learning". The blue line shows the general trend in the number of papers mentioning these words, the green line shows those that are also associated with the words: "Ethics", "Ethic" or "Challenges".](./paperplots.png)
 
-5. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
+6. Write your conclusion. Are the trends identical? Do you think Challenges and Ethics of AI are well-represented in scientific publications? Motivate your answer.
     
 ## Teaching platform
 To create and share FAIR training materials, we envisaged the construction of an open-access teaching platform. The platform will store training materials and provide suggestions for designing a new training event. The materials will be labeled with information such as area, topic, bloom’s level, outcomes, material type, authorship and time to perform the activity. Topic dependencies will be fundamental in providing suggestions for designining a learning path. An overview of the database structure underlying the teaching platform is visible in Figure 6.
