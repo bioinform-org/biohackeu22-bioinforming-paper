@@ -191,9 +191,11 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
 
 ![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
+
 2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).
 
 ![The second step of the exercise for species identification. Visualize and take note of the found species.](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
+
 3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
 | ID         | Organism                                 |
 |------------|------------------------------------------|
@@ -209,6 +211,7 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 | Unknown 10 | Capra hircus (Goat)                      |
 
 Table: The final results from the omics exercise. The first column contains a list of identifiers (IDs) while the second column represents the species associated to each sequence.
+
 4. (Optional) Try to associate a protein sequence to each DNA sequence and report its UniProt ID.
 
 ### Use case 2 - Prepare the structure of a receptor protein for successive inhibitor detection.
@@ -229,11 +232,15 @@ Create necessary subdirectories:\
 ```mkdir receptor ligands scripts dockings```\
 Activate virtual screening environment:\
 ```conda activate virtual_screening```
+
 2. Move into the ’receptor’ directory.
 Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called ’botA_LC.pdb’. Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
+
 3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$C\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
+
 4. Prepare receptor structure:\
 ```prepare_receptor4.py -r botA_LC.pdb -A hydrogens```
+
 5. Open ’botA_LC.pdbqt’ file in a text editor and manually set the charge of the zinc atom to 2.000
 
 ### Use case 3 - Plot trends of publications on Artificial Intelligence in bioinformatics. Highlight challenges and ethical implications. 
