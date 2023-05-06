@@ -34,7 +34,7 @@ date: 01 May 2023
 cito-bibliography: paper.bib
 event: BH22EU
 biohackathon_name: "BioHackathon Europe 2022"
-biohackathon_url:   "https://biohackathon-europe.org/"
+biohackathon_url: "https://2022.biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
 group: Project 3
 # URL to project git repo --- should contain the actual paper.md:
@@ -93,9 +93,7 @@ Table: Description of Bloom's levels.
 
 Specific areas might have a different role in a specific training context. To structure the training materials, we defined three labels to assign to each learning area: basic (B), core (C\), and specialized (S). For example, when considering a training course, the B-labeled areas must cover information required to understand the other covered areas. The C-labeled areas are the ones that are essential to have a general overview of the main field of the course (e.g. bioinformatics). The S-labeled areas are optional and tailored to the audience. The S areas fully rely upon previous knowledge obtained from the B and C areas. Figure 1 shows the different areas we define.
 
-![](https://drive.google.com/uc?export=view&id=1i0stSDVNtK2gcpYdH4yOYgaAmk8920tJ)
-
-Figure: Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.
+![Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.](https://drive.google.com/uc?export=view&id=1i0stSDVNtK2gcpYdH4yOYgaAmk8920tJ)
 
 ## Defining and classifying learning topics
 
