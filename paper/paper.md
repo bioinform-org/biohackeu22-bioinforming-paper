@@ -154,21 +154,18 @@ Once the Bloom's levels and the learning outcomes are decided, it is possible to
 We list three examples of learning activities associated to topic, level and outcome:
 
 **Example level 1**
-
 - Topic: Sequence data format
-- Level: 1
+- Level: 1	
 - Outcome: Classify the different molecular sequences in fasta format (e.g. protein or nucleic acids)
 - Activity: Lecture and examples of different molecular sequences
 
 **Example level 2**
-
 - Topic: Molecular biology and genetics
-- Level: 2
+- Level: 2	
 - Outcome: Explain the central dogma of molecular biology
 - Activity: Lecture on replication, transcription and translation
 
 **Example level 3**
-
 - Topic: Protein structure analysis
 - Level: 3
 - Outcome: Use structure visualization tools
@@ -186,8 +183,7 @@ We list three examples of learning activities associated to topic, level and out
 
 The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification.
 
-**Steps:**
-
+**Steps**:
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.
 
 ![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](https://drive.google.com/uc?export=view&id=1s9Q207HMN6X8lSwHYwkBxrBFH3y9nsZx)
@@ -197,6 +193,7 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 ![The second step of the exercise for species identification. Visualize and take note of the found species.](https://drive.google.com/uc?export=view&id=1iJDq1zsX6uvU8ggBaQxtgL4mznH0fEPe)
 
 3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3. 
+
 | ID         | Organism                                 |
 |------------|------------------------------------------|
 | Unknown 1  | Pan troglodytes (Chimpanzee)             |
@@ -225,22 +222,17 @@ Table: The final results from the omics exercise. The first column contains a li
 The receptor protein is PDB:2NYY available from Protein Data Bank (PDB).
 
 **Steps:**
-
 1. Move into a specific working directory: \
 ``` cd /home/ubuntu/Desktop/<your_name>/practical5 ``` \
 Create necessary subdirectories:\
 ```mkdir receptor ligands scripts dockings```\
 Activate virtual screening environment:\
 ```conda activate virtual_screening```
-
 2. Move into the ’receptor’ directory.
 Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called ’botA_LC.pdb’. Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
-
 3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$C\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
-
 4. Prepare receptor structure:\
 ```prepare_receptor4.py -r botA_LC.pdb -A hydrogens```
-
 5. Open ’botA_LC.pdbqt’ file in a text editor and manually set the charge of the zinc atom to 2.000
 
 ### Use case 3 - Plot trends of publications on Artificial Intelligence in bioinformatics. Highlight challenges and ethical implications. 
@@ -252,7 +244,6 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 **Exercise:** Go to PubMed (https://pubmed.ncbi.nlm.nih.gov/) and look for papers about Artificial Intelligence in specific time frames. Use the provided scripts (or create your own) to plot the trends, compare them and write your conclusions.
 
 **Steps:**
-
 1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985):\
 ***Query example:***
     ```
@@ -262,7 +253,6 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
     (Deep Learning[Title/Abstract])) AND 
     (("1980"[Date - Publication] : "1985"[Date - Publication]))
     ```
-
 2. Repeat the search and annotate the results for time frames of 5 years until March 31st 2023. Fill the lists with the results from the queries.\
 ***Lists example:***
     ```
