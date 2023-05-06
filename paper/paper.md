@@ -181,7 +181,7 @@ We list three examples of learning activities associated to topic, level and out
 
 **Exercise:** Use the BOLD system for DNA Barcoding to identify the species from the DNA sequences provided in FASTA format. 
 
-The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification [@rodrigues2017].
+The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or COI) which is highly efficient for species identification.
 
 **Steps:**
 
