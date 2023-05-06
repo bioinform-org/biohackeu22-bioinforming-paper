@@ -253,7 +253,7 @@ Open the PDB structure 2NYY in PyMOL. Considering the information available on U
 1. Open the advanced search in PubMed and look for papers containing the words: "Artificial Intelligence", "Natural Language Processing", "Machine Learning", and "Deep Learning" in a specific time frame (e.g. from 1980 to 1985).\
 ***Query example:***\
     ```
-    ((((Natural language processing[Title/Abstract]) OR
+    ((((Natural language processing[Title/Abstract]) OR\
     (Artificial intelligence[Title/Abstract])) OR
     (Machine learning[Title/Abstract])) OR
     (Deep Learning[Title/Abstract])) AND
