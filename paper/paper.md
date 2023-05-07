@@ -22,7 +22,7 @@ authors:
 affiliations:
   - name: Wageningen University and Research, Wageningen, The Netherlands
     index: 1
-  - name: Zuse Institut Berlin, Berlin, Germany
+  - name: Zuse Institute Berlin, Berlin, Germany
     index: 2
   - name: Freie Universität Berlin, Berlin, Germany
     index: 3
@@ -47,7 +47,7 @@ authors_short: Marco Anteghini & Katarina Elez \emph{et al.}
 
 # Abstract
 
-Optimal formats to inform and engage young students in novel biology-related fields are short courses. Training schools, e.g. lasting for five days, can provide enough content to introduce students to an extensive overview of bioinformatics and scientific career opportunities. In this work, we define a five-day training school format tailored to three target groups of young students: high school students, undergraduate students in biology-related fields and undergraduate students in computational fields. We structure the content and sessions around learning areas consisting of learning topics, detailing the dependencies between them. For each learning topic, we define learning outcomes and learning activities. Moreover, we conceptualize a teaching platform to manage FAIRyfied (Findable, Accessible, Interoperable, Reusable) training materials that anyone will be able to use to design a new training school in bioinformatics.
+Optimal formats to inform and engage young students in novel biology-related fields are short courses. Training schools, suct as those lasting for five days, can provide enough content to introduce students to an extensive overview of bioinformatics and scientific career opportunities. In this work, we define a five-day training school format tailored to three target groups of young students: high school students, undergraduate students in biology-related fields and undergraduate students in computational fields. We structure the content and sessions around learning areas consisting of learning topics, detailing the dependencies between them. For each learning topic, we define learning outcomes and learning activities. Moreover, we conceptualize a teaching platform to manage FAIRyfied (Findable, Accessible, Interoperable, Reusable) training materials that anyone will be able to use to design a new training school in bioinformatics.
 
 
 # Introduction
@@ -93,7 +93,7 @@ Table: Description of Bloom's levels.
 
 Specific areas might have a different role in a specific training context. To structure the training materials, we defined three labels to assign to each learning area: basic (B), core (C\), and specialized (S). For example, when considering a training course, the B-labeled areas must cover information required to understand the other covered areas. The C-labeled areas are the ones that are essential to have a general overview of the main field of the course (e.g. bioinformatics). The S-labeled areas are optional and tailored to the audience. The S areas fully rely upon previous knowledge obtained from the B and C areas. Figure 1 shows the different areas we define.
 
-![Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.](./modules.png)
+![Classification of learning areas. The first row shows the basic (B) areas. The second row shows the core (C\) areas. The third and forth rows show six examples of the specialized (S) areas.](./learning_areas.png)
 
 ## Defining and classifying learning topics
 
