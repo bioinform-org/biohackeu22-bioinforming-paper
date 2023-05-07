@@ -59,7 +59,7 @@ Science promotion and engagement of students at a young age can have a decisive 
 
 Non-governmental, non-profit organization Bioinformatika (Bioinform) aims to achieve this goal by offering various free-of-charge training events. One of the main event formats that Bioinform organizes is a one-week training school designed to introduce the participants to the most relevant topics in bioinformatics and stimulate their curiosity for science learning. This NGO originated from the “BioINForming - Pilot” project, supported by the European Commission through the 2nd call of the Western Balkans Alumni Association (WBAA) in 2021. During this pilot project, the founders of Bioinform organized a five-day training school in bioinformatics for high school students in Montenegro in January 2022. Moreover, a survey was conducted among young students (105) in Montenegro to get insights into their background knowledge and interest in bioinformatics.
 
-In this paper, we present our improved method for designing a five-day training school in bioinformatics tailored to three different target groups: high school students, undergraduate students in biology-related fields and undergraduate students in computational fields. We also show specific use cases. During ELIXIR BioHackathon Europe 2022, we worked with other ELIXIR members and specialists to better define our training school content concerning learning areas and learning topics with their inter-dependencies. It allowed us to associate realistic learning outcomes and the related learning activities to perform. Moreover, we defined a database structure to implement a teaching platform that enables interested trainers to create tailored training schools in bioinformatics.
+In this paper, we present our improved method for designing a five-day training school in bioinformatics tailored to three different target groups: high school students, undergraduate students in biology-related fields and undergraduate students in computational fields. During ELIXIR BioHackathon Europe 2022, we worked with other ELIXIR members and specialists to better define our training school content concerning learning areas and learning topics with their inter-dependencies. It allowed us to associate realistic learning outcomes and the related learning activities to perform. Moreover, we defined a database structure to implement a teaching platform that enables interested trainers to create tailored training schools in bioinformatics.
 
 ## Learning principles
 
@@ -189,9 +189,11 @@ The DNA sequences are from the C oxidase subunit 1 mitochondrial gene (COX1 or C
 **Steps:**
 
 1. Open BOLD systems at https://www.boldsystems.org/index.php/IDS_IdentificationRequest, select the option "Species Level Barcode Records" and paste the FASTA sequence as shown in Figure 3.\
+
 ![The first step of the exercise is for species identification. An unknown FASTA sequence is pasted in the text box on the BOLD Systems website.](./bold_systems_input.png)
 
 2. Visualize the results and take note of the species found, as shown in Figure 4. The phylogenetic tree can also be visualized and interpreted (optional).\
+
 ![The second step of the exercise for species identification. Visualize and take note of the found species.](./bold_systems_output.png)
 
 3. Iterate the process until each sequence is associated with the corresponding species. The final results are visible in Table 3.
@@ -231,12 +233,12 @@ Create necessary subdirectories:\
 ```mkdir receptor ligands scripts dockings```\
 Activate virtual screening environment:\
 ```conda activate virtual_screening```
-2. Move into the ’receptor’ directory.
-Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called ’botA_LC.pdb’. Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
-3. Open ’botA_LC.pdb’ file in a text editor and find x, y and z coordinates of the C$\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
+2. Move into the "receptor" directory.
+Open the PDB structure 2NYY in PyMOL. Considering the information available on UniProt (P0DPI0), export light chain of botulinum neurotoxin type A into a PDB file called "botA_LC.pdb". Note that the final structure should contain a zinc (Zn) atom, but no calcium (Ca) atoms.
+3. Open "botA_LC.pdb" file in a text editor and find x, y and z coordinates of the C$\alpha$ atom of glutamate (GLU) 262. Write these coordinates down for future reference.
 4. Prepare receptor structure:\
 ```prepare_receptor4.py -r botA_LC.pdb -A hydrogens```
-5. Open ’botA_LC.pdbqt’ file in a text editor and manually set the charge of the zinc atom to 2.000
+5. Open "botA_LC.pdbqt" file in a text editor and manually set the charge of the zinc atom to 2.000
 
 ### Use case 3 - Plot trends of publications on Artificial Intelligence in bioinformatics. Highlight challenges and ethical implications. 
 
