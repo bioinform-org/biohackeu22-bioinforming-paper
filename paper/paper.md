@@ -322,11 +322,11 @@ To create and share FAIR training materials, we envisaged the construction of an
 
 ## Additional topics and tailored content examples
 
-Tailored content is essential for a successful outcome in every training event. In particular, a 5-day training school risks being too condensed and overwhelming if not properly planned. For these reasons, we believe it is important to add certain flexibility to our training events, monitoring the students' satisfaction during and after the training school implementation.\
+Tailored content is essential for a successful outcome in every training event. In particular, a five-day training school risks being too condensed and overwhelming if not properly planned. For these reasons, we believe it is important to add certain flexibility to our training events, monitoring the students' satisfaction during and after the training school implementation.\
 Our format aims to provide a space for general discussion and soft skill improvement in parallel to our highly structured training materials.
 In the regular call for applications to a training event, we ask questions like "How would you rate your interest in knowing more about the following topics?" and "What additional topics would you be interested in knowing more about?".\
 Additionally, we dedicate sessions to complementary discussions for scientific training schools such as: "Career in bioinformatics", "Ethics and challenges of AI", "Environmental protection", "Gender imbalance in science" and "Erasmus exchange opportunities".\
-As an example, the session "Ethics and challenges of AI" would consist of  a discussion on the challenges connected to the use of AI in healthcare. These include: ensuring patient privacy and data security, addressing issues of bias and fairness in algorithmic decision-making, and establishing accountability for the actions of AI systems. Also, practical challenges can be clustered in the following groups: data integration problems, training set bias and black-box characteristics.
+As an example, the session "Ethics and challenges of AI" would consist of  a discussion on the challenges connected to the use of AI in healthcare. These include: ensuring patient privacy and data security, addressing issues of bias and fairness in algorithmic decision-making and establishing accountability for the actions of AI systems. Also, practical challenges can be clustered in the following groups: data integration problems, training set bias and black-box characteristics.
 
 
 # Conclusions
